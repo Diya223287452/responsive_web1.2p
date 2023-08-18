@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BEAUTIFUL SCENERY MADE BY DIYA</title>
+  </head>
+  <body>
+    <h1>ESCENCE OF A BEAUTIFUL PICTURE</h1>
+    <br />
+    <script>
+      //string methods
+      let sentence = "love, laugh, live";
+
+      //make the length of the string appear
+      console.log("length of the string: " + sentence.length);
+      ("<br>");
+
+      // displays the string to lowercase
+      console.log("sentence to lowercase: " + sentence.toLowerCase());
+
+      //replace the text in the sentence
+      console.log(
+        "replace 'laugh' to 'smile': " + sentence.replace("laugh", "smile")
+      );
+
+      //CharArt method
+      console.log("Character at index 12:", myString.charAt(12));
+
+      //repeating the sentence
+      console.log("Repeated:", myString.repeat(2));
+
+      ("<br>");
+
+      //number method
+      const SampleNumber = 135.792468;
+
+      //it formats number with specified decimal place
+      console.log("toFixed:", SampleNumber.toFixed(5));
+
+      //it formats number in exponential form
+      console.log("toExponential:", SampleNumber.toExponential(3));
+
+      //it basically checks if the value is finite or not
+      console.log("isFinite:", isFinite(SampleNumber));
+
+      //it converts a value to a number
+      const convertedNumber = Number("135.79");
+      console.log("Number:", convertedNumber);
+
+      //it checks if a value is NaN (Not-a-Number) or not
+      console.log("isNaN:", isNaN(sampleNumber));
+
+      ("<br>");
+
+      //array method
+      const MyColors = ["cyan", "green", "blue", "yellow", "orange"];
+
+      // it get the number of elements in the array
+      console.log("Length:", MyColors.length);
+
+      //it add elements to the end of the array
+      MyColors.push("white", "purple");
+      console.log("push:", MyColors);
+
+      //it remove and return the last element of the array
+      const lastColor = MyColors.pop();
+      console.log("pop:", lastColor, MyColors);
+
+      // it remove and return the first element of the array
+      const firstColor = MyColors.shift();
+      console.log("shift:", firstColor, MyColors);
+
+      //it find the index of an element in the array
+      const yellowIndex = MyColors.indexOf("yellow");
+      console.log("indexOf 'yellow':", yellowIndex);
+
+      ("<br>");
+
+      // Create a new Date object representing the current date and time
+      const SpecialDate = new Date();
+
+      // it get the current date and time
+      console.log("Current Date:", SpecialDate);
+
+      // it get the year
+      const year = SpecialDate.getFullYear();
+      console.log("Year:", year);
+
+      //Get the month (0 - 11, January - December)
+      const month = SpecialDate.getMonth();
+      console.log("Month (0-indexed):", month);
+
+      //Get the hours
+      const hours = SpecialDate.getHours();
+      console.log("Hours (24-hour format):", hours);
+
+      //Get the minutes
+      const minutes = SpecialDate.getMinutes();
+      console.log("Minutes:", minutes);
+
+      ("<br>");
+
+      //function method
+
+      //declairing function
+      function Welcome(name) {
+        return "Hello, " + name + "!";
+      }
+      console.log("1. Function Declaration:", Welcome("Alice"));
+
+      //expression of function
+      const multiply_xy = function (x, y) {
+        return x * y;
+      };
+      console.log("2. Function Expression:", multiply_xy(23, 54));
+
+      //Arrow Function
+      const divide_ab = (a, b) => a / b;
+      console.log("Arrow Function:", divide_ab(1456, 2));
+    </script>
+  </body>
+</html>
